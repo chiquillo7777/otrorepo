@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .dark{
+                padding: 15px;
+                background: #e6e6e6;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                float: left;
+                width:50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dark">
+            <form method="post" action="UserController">
+            <h3>Login</h3>
+            Name: <input type="text" name="username" placeholder="Enter name"/><br/><br/>
+            Email: <input type="email" name="email" placeholder="Enter email"/><br/><br/>
+            Password: <input type="password" name="password" placeholder="Enter password"/><br/><br/>
+            <input type="submit" name="operation" value="register"/>
+            </form>
+        </div>
+    </body>
+</html>
